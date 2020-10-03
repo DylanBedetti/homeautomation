@@ -1,0 +1,26 @@
+version: '2'
+# volumes:
+#     resin-data:
+services:
+  node-red:
+    build: ./node-red
+    # volumes:
+    #   - 'resin-data:/data'
+    restart: always
+    privileged: true
+    network_mode: host
+    cap_add:
+      - SYS_RAWIO
+    devices:
+      - "/dev/mem:/dev/mem"
+      - "/dev/gpiomem:/dev/gpiomem"
+      - "/dev/i2c-1:/dev/i2c-1"
+  mqtt:
+    image: eclipse-mosquitto
+    restart: always
+    network_mode: host
+  hass:
+    build: ./homeassistant
+    restart: always
+    network_mode: host
+    
