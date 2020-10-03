@@ -1,0 +1,52 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "605d2c53055811eb832f755a7b90f5e5",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "onboarding",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "633ebca1055811ebab4ab7e4a5ade2e2",
+                "version": 1,
+                "domain": "lifx",
+                "title": "LIFX",
+                "data": {},
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "homekit",
+                "connection_class": "local_poll",
+                "unique_id": "lifx"
+            },
+            {
+                "entry_id": "9e5dac23055811eb8d6051dcd3892f9b",
+                "version": 1,
+                "domain": "mqtt",
+                "title": "configuration.yaml",
+                "data": {},
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "import",
+                "connection_class": "local_push",
+                "unique_id": null
+            }
+        ]
+    }
+}

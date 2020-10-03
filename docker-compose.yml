@@ -3,9 +3,10 @@ version: '2'
 #     resin-data:
 services:
   node-red:
-    build: ./node-red
-    # volumes:
-    #   - 'resin-data:/data'
+    # build: ./node-red
+    image: nodered/node-red
+    volumes:
+      - '/home/pi/home-automation/node-red:/data'
     restart: always
     privileged: true
     network_mode: host
@@ -20,7 +21,9 @@ services:
     restart: always
     network_mode: host
   hass:
-    build: ./homeassistant
+    image: homeassistant/home-assistant:stable
     restart: always
     network_mode: host
+    volumes:
+      - '/home/pi/home-automation/homeassistant:/config'
     

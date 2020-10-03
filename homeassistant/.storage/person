@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Dylan Bedetti",
+                "user_id": "f8f8ad3ecbfb4f57894b1e4a5dda7e3a",
+                "device_trackers": [],
+                "id": "dylan_bedetti"
+            }
+        ]
+    }
+}

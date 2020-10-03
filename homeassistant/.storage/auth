@@ -1,0 +1,59 @@
+{
+    "version": 1,
+    "key": "auth",
+    "data": {
+        "users": [
+            {
+                "id": "f8f8ad3ecbfb4f57894b1e4a5dda7e3a",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": true,
+                "is_active": true,
+                "name": "Dylan Bedetti",
+                "system_generated": false
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "credentials": [
+            {
+                "id": "6766f924bc0b43e983ee7679344dcacf",
+                "user_id": "f8f8ad3ecbfb4f57894b1e4a5dda7e3a",
+                "auth_provider_type": "homeassistant",
+                "auth_provider_id": null,
+                "data": {
+                    "username": "dylan"
+                }
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "id": "7afb01cc12cc483f8404df85f0b44d82",
+                "user_id": "f8f8ad3ecbfb4f57894b1e4a5dda7e3a",
+                "client_id": "http://pi1:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2020-10-03T09:11:16.908285+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "81e3cb04e142318a7dd974241a4d3a16fbb717c213fbe78850c92b34779d788c06e182761aa1495b1c70c50d57c9bb9d2cb8d6c530750f317333d0f1f9c4b31d",
+                "jwt_key": "05c17dd26b3d35c6239c80a8e2f5eed259beaf85ca335ef7a1c7a73c42a2143ee49cda5c0b25bd1eae4349b2b26a54831cbff2697b2108f7a143203dd88ae3a8",
+                "last_used_at": "2020-10-03T09:11:16.908707+00:00",
+                "last_used_ip": "192.168.1.107"
+            }
+        ]
+    }
+}

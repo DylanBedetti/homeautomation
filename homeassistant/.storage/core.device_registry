@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "633ebca1055811ebab4ab7e4a5ade2e2"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "d0:73:d5:2e:47:8a"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "lifx",
+                        "d0:73:d5:2e:47:8a"
+                    ]
+                ],
+                "manufacturer": "LIFX",
+                "model": "LIFX+ BR30",
+                "name": "dylan",
+                "sw_version": 2.77,
+                "entry_type": null,
+                "id": "63fe812d055811eb8bbf7b10892e106a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

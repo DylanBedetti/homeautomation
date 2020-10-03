@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.dylan_bedetti",
+                "state": "unknown",
+                "attributes": {
+                    "editable": true,
+                    "id": "dylan_bedetti",
+                    "user_id": "f8f8ad3ecbfb4f57894b1e4a5dda7e3a",
+                    "friendly_name": "Dylan Bedetti"
+                },
+                "last_changed": "2020-10-03T09:12:53.020748+00:00",
+                "last_updated": "2020-10-03T09:12:55.484451+00:00",
+                "context": {
+                    "id": "9f6bee76055811eba9fe5729d53fd54f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-10-03T09:14:38.613212+00:00"
+        }
+    ]
+}
